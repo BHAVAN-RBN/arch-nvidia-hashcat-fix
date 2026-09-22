@@ -55,10 +55,3 @@ hashcat -b -m 0    # benchmark MD5 to confirm GPU is actually cracking, not fall
 | `modprobe: FATAL: Module nvidia not found` | Module built and installed, but `depmod` was skipped (commonly via a `--no-depmod` flag) | Script always runs `depmod -a` explicitly after install |
 | `nvidia-smi` fails after driver install | nouveau still loaded, or reboot needed | Script blacklists nouveau and flags when a reboot is required |
 
-## License
-
-MIT
-
-## Author
-
-[bxploit (Bhavan RBN)](https://github.com/BHAVAN-RBN)
